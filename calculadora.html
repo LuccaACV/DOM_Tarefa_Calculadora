@@ -8,17 +8,21 @@
 </head>
 <body>
     <header>
-        <h1>Calculadora</h1>
+        <div class="cabecalho">
+            <h1 id="cabecalho_texto">Média das notas dos Alunos</h1>
+        </div>
     </header>
     <body>
-        <section>
+        <section class="section_calculadora">
             <div class="calculadora">
                 <form action="">
-                    <label>Email:</label>
+                    <label>Nota:</label>
                     <input type="text" id="entrada_nota">
-                    <button>Enviar</button>
+                    <button>Adicionar</button>
                 </form>
-                <textarea rows="20" cols="20" placeholder="NOTAS ESTARAM AQUI"></textarea>
+                <div id="campo_mensagem"></div>
+                <button id="botao_calcular">Calcular Média</button>
+                <p id="texto_resultado">A média é: </p>
             </div>
         </section>
     </body>

@@ -1,0 +1,50 @@
+body{
+    background-color: blueviolet;
+}
+
+.cabecalho{
+
+    display: flex;
+    justify-content: center;
+}
+
+#cabecalho_texto{
+
+    font-size: 2.5rem;
+    color: #FAFAFA;
+}
+.section_calculadora{
+
+    display: flex;
+    justify-content: center;
+}
+
+.calculadora{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    padding: 30px;
+    border-radius: 4%;
+    border: 2px solid black;
+    gap: 10px;
+}
+
+#campo_mensagem{
+
+    width: 340px;
+    height: 300px;
+    border: 1px solid black;
+    overflow-y: scroll;
+}
+
+#botao_calcular{
+
+    width: 100px;
+}
+
+#texto_resultado{
+
+    font-size: 1.1rem;
+    font-weight: bold;
+}
